@@ -1,0 +1,16 @@
+.app {
+  background-color: #f6f7fb;
+  min-height: 100vh;
+  padding: 32px 120px;
+
+  &__title {
+    color: #282538;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    span {
+      font-weight: 300;
+    }
+  }
+}
