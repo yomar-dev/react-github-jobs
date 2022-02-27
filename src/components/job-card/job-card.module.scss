@@ -1,0 +1,69 @@
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  min-height: 114px;
+  padding: 12px;
+  margin-bottom: 32px;
+
+  &-logo {
+    margin-right: 16px;
+
+    &__image {
+      border-radius: 4px;
+    }
+  }
+
+  &-description {
+    color: #334680;
+    flex-grow: 1;
+
+    &__company-name {
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    &__position {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__job-type {
+      border: 1px solid #334680;
+      border-radius: 4px;
+      margin-right: auto;
+      padding: 6px;
+    }
+
+    &-location {
+      color: #b9bdcf;
+      display: flex;
+      font-size: 12px;
+      font-weight: 500;
+
+      &__city {
+        display: flex;
+        align-items: center;
+        margin-right: 28px;
+      }
+
+      &__date {
+        display: flex;
+        align-items: center;
+      }
+
+      span {
+        margin-right: 8px;
+      }
+    }
+  }
+}
