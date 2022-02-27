@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import styles from './Sidebar.module.scss';
+import styles from './sidebar.module.scss';
 
 const DEFAULT_CITIES = [
   { id: 1, name: 'Lodon' },
